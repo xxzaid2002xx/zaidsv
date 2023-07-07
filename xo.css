@@ -1,0 +1,45 @@
+
+.body{
+    background-color: rgb(30, 136, 136);
+}
+.game{
+    width: 255px;
+    text-align: center;
+    color: aliceblue;
+    margin: auto;
+    font-weight: 500px;
+    margin-top:100px ;
+}
+.title{
+    background-color:#f25;
+    padding: 5px 0;
+    margin: 5px 0;
+    font-size: 25px;
+}
+.span{
+    color: #fa0;
+}
+.square{
+    width: 80px;
+    height: 80px;
+    background-color: #f25;
+    float: left;
+    font-size: 50px;
+    margin: 2px;
+}
+.square:hover{
+    background-color: black;
+    cursor: pointer;
+}
+h1{
+    background-color: #f25;
+    color:#fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top:50px ;
+    border-radius: 10%;
+    width: 350px;
+    text-align: center;
+}

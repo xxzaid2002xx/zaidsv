@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://freeiconshop.com/wp-content/uploads/edd/calculator-outline-filled.png">
+    
+    <title>simple calculator | zaid</title>
+</head>
+<body>
+    <div class="calc">
+        <input type="text" placeholder="0" id="calc">
+        <button id="r" onclick="javascript:window.location.reload()" style="background-color: rgb(239, 3, 200);">cl</button>
+        <button onclick="Delete()">del</button>
+        <button onclick="display('%')">%</button>
+        <button onclick="display('/')">/</button>
+        <button onclick="display('7')">7</button>
+        <button onclick="display('8')">8</button>
+        <button onclick="display('9')">9</button>
+        <button onclick="display('*')">*</button>
+        <button onclick="display('4')">4</button>
+        <button onclick="display('5')">5</button>
+        <button onclick="display('6')">6</button>
+        <button onclick="display('+')">+</button> 
+        <button onclick="display('1')">1</button>
+        <button onclick="display('2')">2</button>
+        <button onclick="display('3')">3</button>
+        <button onclick="display('-')">-</button>
+        <button onclick="display('0')">0</button>
+        <button onclick="display('.')">.</button>
+        <button onclick="calc('=')" style="width: 100px; background-color:  rgb(44, 98, 206);">=</button>
+       
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+</html>

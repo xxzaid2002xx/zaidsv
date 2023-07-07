@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my website</title>
+    <link rel="stylesheet" href="zaid.css">
+    <link rel="icon" href="img/photo_2023-04-13_06-21-50.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+  
+   
+
+</head>
+<body>
+    <div class="profile">
+        <img src="img/photo_2023-04-13_06-21-50.jpg" alt="profile" id="start">
+    </div>
+
+    <div class="profile-info">
+        <!--nav-->
+        <nav class="navbar bg-body-tertiary fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">موقعي</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#services-section2" >الرائيسية</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services-section" >الخبرات</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services-section3" >مشاريعي</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      language
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="arabic.html">عربي</a></li>
+                      <li><a class="dropdown-item" href="index.html">English</a></li>
+                    </ul>
+                  </li>
+                </ul>
+               
+              </div>
+            </div>
+          </div>
+        </nav>
+       <!--home-->
+        <h1 id="services-section2">زيد عبدالله </h1>
+        <h2>العمر : 22</h2>
+        <p class="about">
+            درس الجامعه القتنية الوسطى / هندسة كهرباء<br>
+            لديه معرفة كاملة بعلوم الكمبيوتر<br>
+          درس في الجامعه التكلوجية / لغة انكليزية<br>
+        </p>
+        <div class="social">
+            <a href="https://www.facebook.com/profile.php?id=100010156034059"> <img src="img/facebook.png" title="Facebook"></a>
+            <a href="https://www.instagram.com/za_za140/"><img src="img/instagram.png" title="instegram"></a>
+            <!--
+            <img src="img/linkedin.png" title="linkedin">
+            <img src="img/twitter.png" title="twitter">
+            -->
+        </div>
+
+
+        <a href="https://wa.me/+9647715204894" target="_blank"><img id="whatsapp" src="data:image/jpeg;base64,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" alt=""></a>
+       
+       <!--experience-->
+        <h2 id="services-section" >الخبرات</h2>
+        <div class="expertise">
+            <img src="img/wal1.png" >
+            <p><b>إنشاء وتصيميم صفحات الويب</b></p>
+            <small>
+                محترف في تصميم وتطوير الويب وخبير في لغات البرمجة اللغوية مثل HTML CSS و JAVA SCRIPT<br>
+            </small>
+        </div>
+
+        <div class="expertise">
+          <img src="https://th.bing.com/th/id/OIP.Dp-2nRKxoTldwBtSfq0olwHaHa?w=150&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" >
+          <p><b>الاردوينو</b></p>
+          <small>
+              محترف في برمجة الاردوينو
+          </small>
+      </div>
+
+        <div class="expertise">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH8AAAB/CAMAAADxY+0hAAAAZlBMVEUqVpb///8QSZC0vtMkU5Tz9fghUZQVS5Fqgq6iss1Qb6P6+/wARY7o6/FYdKbs8PYAO4kAQo1CZZ43Xppje6q+xtne4uvQ1+TZ4e3Fzd1JaqByibN7k7qOoMGDl7uuvNSYqskAMYZY7YOBAAAEfElEQVRoge2ba3erKhCGvSAYb6livMQkuv//nzzMiMaYlpQsMefsw/uhq0kqzwwMw0Co439WjvdZOVZWVlZWVu+LfI5MmUf5+RNkgaYOL6+nOg32JVOWMOccXv366KL24hMiyDzqBuGzu5B5vuhtLwGfT3UVuGuZ5BMq5PDo4tdV/EQ2yUefSRFd+vZHshm+8NnLyTm89d/1tkk++JyTogTy8RfkTfmEER6Fgw55Sz4N20aXPPMxTF9LlanZ4S048mkW/koFNcNPTr/7y5T/3AN78N3I8i3f8jfnt5/l03OmVGWY/yr/G+e/kHF+8qWUab7nB0eV5vrtb51/lr8f/1hVTd229z2Bab4A1nU716Ziu83YV3j/HPJfuWX+i4WD9amZ8AJI2Z9++pSRlbWv8h/RzX8pp8zLJw+bBD6mt+klg5ekfeArRYgmP8hEnUwz+eqA5/QkkgPeAp/wdMl/dQKjm/8ugk8KOeLdWLQzuRU8AJ+WwZLv9cdUJd38N7C71XE2PpNXC3PY1V3yt47/+gveGIc4lZ97MgDRHNYvGt2ef2R3Ri2/ppEBGOAWhjaLRrfnx2cyA3G8hUiIo9hAC4QvzwUM5B8IQDpOwFDuGUmBIY/hT8Nlo8iPVdLmQwCSczB1xfgU9nkPw0GHRz7hhVLa9Uebg8fgcAW4rICfEA8x9MyqvyH/EKW0+UfIeTjjWgqhD89RmHNxCC18BVp8/foToxyr+kHw8yCc4iE4Y/i7j3zC1dKv/wDIhvEX4sSQg8lZJMSKA75b8T0/DlRytflXcPgi+rsg4HiNa1Alw3+1VJtY/0+4AsVuSnHgIQod6k/hXxvnV7AC8SM6znyxIpJx1t0wGz2eSprg40lRkmIiYJVMSGLYS9kvpvkIymtY7aAbsAgg3A1EODwufq6h/S847B0w/ErxEgMwD+Y4eOQ7LFfqjf3XAScALIS4DiE4qWsc/uaJr5Z+/hMOA78Et8e8C0+y3p/ygHE+JBoS3SDb49OYAa+YFrr4ic9U1zyS5A0+ll2cz3UglAEkg+zLBnfNN3H+IsvOaa1vIfFwfGM92czsfwZZ99BxtlXz0TVJV42a4de5fF+2PR1dj2WJeX46+S/dLafxuK0bNcMfV/r7NmSg3/+dif0HagxAMpWareyPfJV9zNQf7hSAc7Jv5KP5U6duvv+UDv/xPLHRn4e2GMfj/B1fXX6+d/4Yn079cO3maM9yYQ71Voufu9v5awPmXLrnUDew/9DS/+z8y/Kf+F6vTH/v5T8NvsMShd6q//T4ar2X/3T46vRn/PsXEpVKzRXLX/r926fnn+VbvuX/+/mm7v9scf+JdnXzm9t23/G3uP8l2nCK7NLXqa4VG97/o8xLnCi8+o2GFZvffySinHGi7rq657oXX1pBwYqivPqvrDB6/1WYQbiwom1+tGKH+7+iLyjPukFY8XwXdqf7z9AVOS3K22F1UXPX+99ipkNfRJ2wIvgAX1oBZoh8EYIV8f78yQzqeSIuPsYfjfjc/z9YWVlZWVn9B/UPQpd5JLVkUT0AAAAASUVORK5CYII=" >
+            <p><b>محترف في البرامج المتكبية</b></p>
+            <small>
+                محترف في برامج الاكسل و الورد
+            </small>
+        </div>
+        
+        
+
+        <div class="expertise">
+            <img src="img/photo_2023-04-13_06-21-38.jpg" >
+            <p><b>الشهادة</b></p>
+            <small>
+                حاصل على شهادة من الجامعة التكنلوجية في الغه الانكليزية
+            </small>
+        </div>
+
+
+        
+        <div class="expertise">
+          <img src="img/s.jpg" >
+          <p><b>الشهادة</b></p>
+          <small>
+            حاصل على شهادة في برمجة معالجات 8086
+          </small>
+      </div>
+
+
+        <!--my projects-->
+        <h2 id="services-section3">مشاريعي</h2>
+
+       <a href="cal.html" target="_blank" style="color: black;">
+        
+        <div class="expertise" id="project">
+            <img src="data:image/png;base64,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" >
+            <br>
+            <p><b>الة حاسبة</b></p>
+            
+        </div>
+       </a> 
+
+
+       <a href="xo.html" target="_blank" style="color: black;">
+        
+        <div class="expertise" id="project">
+            <img src="https://www.bing.com/th?id=OIP.rp7JCjttCxx_VuiGki-9HAHaHa&w=98&h=100&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" >
+            <br>
+            <p><b>xo لعبة</b></p>
+            
+        </div>
+       </a> 
+
+        <div class="cont">
+           <a href="mailto:zaid_alubaidi@yahoo,com" style="text-decoration: none; color: black;"> <img src="img/mail.png" ><span>zaid_alubaidi@yahoo.com</span></a>
+          <a href="tel:+9647715204894" style="text-decoration: none; color: black;"> <img src="img/phone.png"><span>+9647715204894</span></a> 
+        </div>
+        
+        <!--
+        <div class="copy">
+            <p>Copyright By zaid 2023</p>
+         </div>
+         -->
+        
+
+
+
+    </div>
+
+  <script>
+
+    // استدعاء الزر أو الرابط الذي يؤدي إلى الانتقال إلى العنصر المراد التمرير إليه
+    var servicesLink = document.getElementById("services-link");
+
+    // استدعاء العنصر الذي يتم التمرير إليه
+    var servicesSection = document.getElementById("services-section");
+
+    // إضافة تفاعل النقر للزر أو الرابط
+    servicesLink.addEventListener("click", function(event) {
+      event.preventDefault(); // منع الانتقال الافتراضي إلى الصفحة الجديدة
+      servicesSection.scrollIntoView({ behavior: "smooth" }); // التمرير إلى العنصر المطلوب
+    });
+
+
+
+
+     // استدعاء الزر أو الرابط الذي يؤدي إلى الانتقال إلى العنصر المراد التمرير إليه
+     var servicesLink2 = document.getElementById("services-link2");
+
+// استدعاء العنصر الذي يتم التمرير إليه
+var servicesSection2 = document.getElementById("services-section2");
+
+// إضافة تفاعل النقر للزر أو الرابط
+servicesLink2.addEventListener("click", function(event) {
+  event.preventDefault(); // منع الانتقال الافتراضي إلى الصفحة الجديدة
+  servicesSection2.scrollIntoView({ behavior: "smooth" }); // التمرير إلى العنصر المطلوب
+});
+
+
+
+ // استدعاء الزر أو الرابط الذي يؤدي إلى الانتقال إلى العنصر المراد التمرير إليه
+ var servicesLink3 = document.getElementById("services-link3");
+
+// استدعاء العنصر الذي يتم التمرير إليه
+var servicesSection3 = document.getElementById("services-section3");
+
+// إضافة تفاعل النقر للزر أو الرابط
+servicesLink3.addEventListener("click", function(event) {
+  event.preventDefault(); // منع الانتقال الافتراضي إلى الصفحة الجديدة
+  servicesSection3.scrollIntoView({ behavior: "smooth" }); // التمرير إلى العنصر المطلوب
+});
+    
+  </script>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
